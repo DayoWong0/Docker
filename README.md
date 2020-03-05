@@ -17,4 +17,8 @@ docker run [ 参数 ] [ 镜像名 or 镜像 id ] [ 命令 ]
 docker run -it --name=c1 centos /bin/bash  
 -i 一直运行 -t 有命令行窗口 --name= 取名字 centos 镜像名字 /bin/bash 命令
 
+查看历史容器  
+docker ps -a
+
+
 
