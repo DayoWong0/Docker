@@ -22,3 +22,22 @@ docker ps -a
 
 
 
+# 来源:https://www.bilibili.com/video/av89009239?p=8
+
+docker ps 查看正在运行的容器
+docker ps -a 查看所有容器
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
