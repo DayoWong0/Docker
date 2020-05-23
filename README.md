@@ -21,9 +21,12 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-
 ```
 sudo chmod +x /usr/local/bin/docker-compose  
 ```
+## [docker配置nginx下载站点](https://github.com/bboysoulcn/nginx-down)
 
 
 
+
+## 其他基本命令
 
 来源:https://www.jianshu.com/p/7c9e2247cfbd   
 docker pull 软件名
