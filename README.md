@@ -4,11 +4,11 @@
 - docker安装:
 国内:  
 ```
-curl -sSL https://get.daocloud.io/docker | sh &&sudo systemctl start docker
+curl -sSL https://get.daocloud.io/docker | sh && sudo systemctl start docker
 ```
 国外:    
 ```
-curl -sSL https://get.docker.com/ | sh &&sudo systemctl start docker
+curl -sSL https://get.docker.com/ | sh && sudo systemctl start docker
 ```
 ~~- 安装后启动docker~~
 
