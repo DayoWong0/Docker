@@ -4,16 +4,17 @@
 - docker安装:
 国内:  
 ```
-curl -sSL https://get.daocloud.io/docker | sh  
+curl -sSL https://get.daocloud.io/docker | sh &&sudo systemctl start docker
 ```
 国外:    
 ```
-curl -sSL https://get.docker.com/ | sh
+curl -sSL https://get.docker.com/ | sh &&sudo systemctl start docker
 ```
-- 安装后启动docker
+~~- 安装后启动docker
 ```
 sudo systemctl start docker
 ```
+~~~
 - 安装docker-compose
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
