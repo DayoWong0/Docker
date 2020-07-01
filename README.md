@@ -35,6 +35,7 @@ apt-get update\
 ### [pycharm网页+VNC版（可用iPad云编程）](https://hub.docker.com/r/binhex/arch-pycharm/)
 服务器内存至少1G 延迟低点 不然很卡 
 ### [intellij-idea网页+VNC版（可用iPad云编程）](https://hub.docker.com/r/binhex/arch-intellij)
+### [linux服务器桌面版 vnc和novnc连接](https://github.com/fcwu/docker-ubuntu-vnc-desktop)
 
 
 
