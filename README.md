@@ -19,10 +19,10 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-
 ```
 sudo chmod +x /usr/local/bin/docker-compose  
 ```
-docker好用的软件
-## [docker-bt下载 可在线播放](https://github.com/asapach/peerflix-server/blob/master/Docker.md)
+## docker amazing软件
+### [docker-bt下载 可在线播放](https://github.com/asapach/peerflix-server/blob/master/Docker.md)
 运行后访问 ip:9000
-## [dns解锁netflix](https://github.com/chengziqaq/netflix-proxy)
+### [dns解锁netflix](https://github.com/chengziqaq/netflix-proxy)
 要求：Ubuntu系统 不需要先安装docker，这个命令前几行就是安装docker
 ```docker
 apt-get update\
@@ -33,41 +33,6 @@ apt-get update\
   && curl -fsSL https://github.com/chengziqaq/netflix-proxy/archive/latest.tar.gz | gunzip - | tar x --strip-components=1\
   && ./build.sh
 ```
-
-
-
-## 其他基本命令
-
-来源:https://www.jianshu.com/p/7c9e2247cfbd   
-docker pull 软件名
-
-查看本地镜像   
-```
-docker images  
-```
-
-删除本地镜像  
-docker rmi [ 镜像名 or 镜像 id ]
-
-查看镜像详情
-docker inspect [ 镜像名 or 镜像 id ]
-
-docker run [ 参数 ] [ 镜像名 or 镜像 id ] [ 命令 ]
-
-docker run -it --name=c1 centos /bin/bash  
--i 一直运行 -t 有命令行窗口 --name= 取名字 centos 镜像名字 /bin/bash 命令
-
-查看历史容器  
-```
-docker ps -a
-```
-
-
-
-## 来源:https://www.bilibili.com/video/av89009239?p=8
-docker ps 查看正在运行的容器
-docker ps -a 查看所有容器
-## [docker frp](https://hub.docker.com/r/snowdreamtech/frps)
 
 
 
