@@ -22,6 +22,17 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker好用的软件
 ## [docker-bt下载 可在线播放](https://github.com/asapach/peerflix-server/blob/master/Docker.md)
 运行后访问 ip:9000
+## [dns解锁netflix](https://github.com/chengziqaq/netflix-proxy)
+要求：Ubuntu系统 不需要先安装docker，这个命令前几行就是安装docker
+```docker
+apt-get update\
+  && apt-get -y install vim dnsutils curl sudo\
+  && curl -fsSL https://get.docker.com/ | sh || apt-get -y install docker.io\
+  && mkdir -p ~/netflix-proxy\
+  && cd ~/netflix-proxy\
+  && curl -fsSL https://github.com/chengziqaq/netflix-proxy/archive/latest.tar.gz | gunzip - | tar x --strip-components=1\
+  && ./build.sh
+```
 
 
 
