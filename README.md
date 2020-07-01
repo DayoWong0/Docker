@@ -20,7 +20,8 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-
 sudo chmod +x /usr/local/bin/docker-compose  
 ```
 ## [docker配置nginx下载站点](https://github.com/bboysoulcn/nginx-down)
-
+## [docker-bt下载 可在线播放](https://github.com/asapach/peerflix-server/blob/master/Docker.md)
+运行后访问 ip:9000
 
 
 
