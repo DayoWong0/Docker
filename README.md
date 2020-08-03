@@ -18,7 +18,36 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-
 ```
 sudo chmod +x /usr/local/bin/docker-compose  
 ```
+## Mac配置
+- docker镜像加速(mac)
+配置界面粘贴json
+```
+{
+  "debug": true,
+  "experimental": false,
+  "registry-mirrors": [
+    "https://hub-mirror.c.163.com/"
+  ]
+}  
+```
 ## docker amazing软件
+### MySQL
+初次运行/安装命令
+```
+docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql
+```
+- 启动命令(dede4de5143f这时容器id,需要自己替换,使用docker ps -a查看)
+```
+docker start dede4de5143f
+```
+- 关闭命令(一般直接关闭docker,这个少用)
+```
+docker stop dede4de5143f
+```
+- 进入mysql命令行
+```
+docker exec -it dede4de5143f mysql -u root -p
+```
 ### [docker-bt下载 可在线播放](https://github.com/asapach/peerflix-server/blob/master/Docker.md)
 运行后访问 ip:9000
 ### [dns解锁netflix](https://github.com/chengziqaq/netflix-proxy)
