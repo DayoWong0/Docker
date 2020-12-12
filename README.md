@@ -18,6 +18,12 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-
 ```
 sudo chmod +x /usr/local/bin/docker-compose  
 ```
+## 配置镜像
+
+- [镜像加速器 - Docker —— 从入门到实践](https://yeasy.gitbook.io/docker_practice/install/mirror)
+
+
+
 ## Mac配置
 - docker镜像加速(mac)
 配置界面粘贴json
