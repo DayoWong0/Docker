@@ -39,9 +39,15 @@ sudo chmod +x /usr/local/bin/docker-compose
 ## docker amazing软件
 ### MySQL
 初次运行/安装命令
+默认
 ```
 docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql
 ```
+指定 MySQL 版本为 8.0.22
+```shell
+docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0.22
+```
+
 - 启动命令(dede4de5143f这时容器id,需要自己替换,使用docker ps -a查看)
 ```
 docker start dede4de5143f
