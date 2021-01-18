@@ -39,26 +39,23 @@ sudo chmod +x /usr/local/bin/docker-compose
 ## docker amazing软件
 ### MySQL
 初次运行/安装命令
-默认
-```
-docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql
-```
+
 指定 MySQL 版本为 8.0.22
 ```shell
 docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0.22
 ```
 
-- 启动命令(dede4de5143f这时容器id,需要自己替换,使用docker ps -a查看)
+- 启动命令
 ```
-docker start dede4de5143f
+docker start mysql-test
 ```
-- 关闭命令(一般直接关闭docker,这个少用)
+- 关闭命令
 ```
-docker stop dede4de5143f
+docker stop mysql-test
 ```
 - 进入mysql命令行
 ```
-docker exec -it dede4de5143f mysql -u root -p
+docker exec -it mysql-test mysql -u root -p
 ```
 ### [docker-bt下载 可在线播放](https://github.com/asapach/peerflix-server/blob/master/Docker.md)
 运行后访问 ip:9000
